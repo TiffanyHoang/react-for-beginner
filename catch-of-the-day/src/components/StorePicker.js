@@ -17,8 +17,6 @@ class StorePicker extends React.Component {
         // (this) above is not working. there are 2 way to get this work; 1 is constructor
         // second got to transition from/ to /store/:storeid
         this.context.router.transitionTo(`/store/${storeID}`)
-
-
     }
 
     render() {

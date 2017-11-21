@@ -35,6 +35,39 @@ const Header = (props) => {
     )
 }
 
+// props
+
+// hoisting
+
+// Header1(someProps)
+
+// function Header1 (props) {
+//     return (
+//         <header></header>
+//     )
+// }
+
+// Header2(someProps)
+
+// const Header2 = function (props) {
+//     return (
+//         <header></header>
+//     )
+// }
+
+// const Header3 = (props) => <header></header>
+
+// const Header4 = (props) => {
+//     alifjewaij
+//     oaijwefoiawjf
+//     awoeifja
+//     wf
+//     return (
+//         <header></header>
+//     )
+// }
+
+
         
 
 export default Header;
